@@ -157,7 +157,7 @@ label[for="toggle"],
     color: #ffffff;
 }
 
-#compare h3 {
+#compare h3, #compare .note {
     color: #222F3E;
 }
 
@@ -268,6 +268,10 @@ nav li li a {
 .marker {
     list-style-type: circle;
     list-style-position: inside;
+}
+#compare .note {
+    margin-left: 1em;
+    font-style: italic;
 }
 
 a:hover,
